@@ -3,7 +3,7 @@ import os    #stands for Operating System
 import subprocess     # make the instruction necessary for the client in order to make the connection
 
 s = socket.socket()
-host = '198.168.133.85'           #ip address of the server
+host = 'server_ip_address'           #ip address of the server
 port = 9999
 
 # Bind the port and the host together which is a little different with what happened in the server side
